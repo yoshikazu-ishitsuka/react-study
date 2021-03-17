@@ -1,7 +1,7 @@
 import React from "react";
 
 // 引数名はpropsとするのがおすすめ
-const ColorfullMessage = (props) => {
+export const ColorfullMessage = (props) => {
   // console.log("カラフル");
   const { color, children } = props;
   // console.log(props);
@@ -15,4 +15,4 @@ const ColorfullMessage = (props) => {
   return <p style={contentStyle}>{children}</p>;
 };
 
-export default ColorfullMessage;
+// export default ColorfullMessage;
